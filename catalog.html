@@ -105,9 +105,7 @@
         <button class="button" type="submit">Применить</button>
         <button class="button" type="reset">Сбросить</button>
       </form>
-      <p class="found">
-        Найдено гостиниц:<output name="result">38</output>
-      </p>
+      <span class="Total-hotels-found">Найдено гостиниц: 38</span>
       <select class="select-control" aria-label="Сортировка">
         <option value="cheap">Сначала дешёвое</option>
         <option value="popular">Сначала популярное</option>
@@ -125,57 +123,58 @@
       <ul class="hotels-list">
         <li class="hotels-card">
           <a class="hotels-card-link" href="#">
-            <img class="hotels-card-image" src="#" alt="Гостиница в Амара Резорт Спа">
             <h3 class="hotels-card-title">Amara Resort & Spa</h3>
           </a>
-          <span>Гостиница</span>
-          <span>От 4000 ₽</span>
-          <a class="button-catalog button-brown" href="#">подробнее</a>
+          <a class="hotels-card-link" href="#">
+            <img class="hotels-card-image" src="#" alt="Гостиница в Амара Резорт Спа.">
+          </a>
+          <span class="name-product">Гостиница</span>
+          <span class="price-product">От 4000 ₽</span>
+          <a class="button-catalog button-brown" href="#">Подробнее</a>
           <a class="button-catalog button-blue" href="#">В избранное</a>
-          <p class="rating">
-            Рейтинг:<output name="result">8,5</output>
-          </p>
+          <span class="rating">Рейтинг: 8,5</span>
         </li>
         <li class="hotels-card">
           <a class="hotels-card-link" href="#">
-            <img class="hotels-card-image" src="#" alt="Гостиницa в Дезерт Куэйл Инн">
             <h3 class="hotels-card-title">Desert Quail Inn</h3>
           </a>
-          <span>Гостиница</span>
-          <span>От 3000 ₽</span>
-          <a class="button-catalog button-brown" href="#">подробнее</a>
+          <a class="hotels-card-link" href="#">
+            <img class="hotels-card-image" src="#" alt="Гостиницa в Дезерт Куэйл Инн.">
+          </a>
+          <span class="name-product">Гостиница</span>
+          <span class="price-product">От 3000 ₽</span>
+          <a class="button-catalog button-brown" href="#">Подробнее</a>
           <a class="button-catalog button-blue" href="#">В избранное</a>
-          <p class="rating">
-            Рейтинг:<output name="result">8,9</output>
-          </p>
+          <span class="rating">Рейтинг: 8,9</span>
         </li>
         <li class="hotels-card">
           <a class="hotels-card-link" href="#">
-            <img class="hotels-card-image" src="#" alt="Гостиницa в Вилла Поко Диабло">
             <h3 class="hotels-card-title">Villas at Poco Diablo</h3>
           </a>
-          <span>Гостиница</span>
-          <span>От 2000 ₽</span>
-          <a class="button-catalog button-brown" href="#">подробнее</a>
+          <a class="hotels-card-link" href="#">
+            <img class="hotels-card-image" src="#" alt="Гостиницa в Вилла Поко Диабло.">
+          </a>
+          <span class="name-product">Гостиница</span>
+          <span class="price-product">От 2000 ₽</span>
+          <a class="button-catalog button-brown" href="#">Подробнее</a>
           <a class="button-catalog button-blue" href="#">В избранное</a>
-          <p class="rating">
-            Рейтинг:<output name="result">9,2</output>
-          </p>
+          <span class="rating">Рейтинг: 9,2</span>
         </li>
         <li class="hotels-card">
           <a class="hotels-card-link" href="#">
-            <img class="hotels-card-image" src="#" alt="Гостиница в Гринтри Инн">
             <h3 class="hotels-card-title">GreenTree Inn</h3>
           </a>
-          <span>Гостиница</span>
-          <span>От 3000 ₽</span>
-          <a class="button-catalog button-brown" href="#">подробнее</a>
+          <a class="hotels-card-link" href="#">
+            <img class="hotels-card-image" src="#" alt="Гостиница в Гринтри Инн.">
+          </a>
+          <span class="name-product">Гостиница</span>
+          <span class="price-product">От 3000 ₽</span>
+          <a class="button-catalog button-brown" href="#">Подробнее</a>
           <a class="button-catalog button-blue" href="#">В избранное</a>
-          <p class="rating">
-            Рейтинг:<output name="result">9,2</output>
-          </p>
-          <button class="button-load button-load-more" type="button">Загрузить ещё</button>
+          <span class="rating">Рейтинг: 9,2</span>
+        </li>
       </ul>
+      <a class="button-load" href="#">Загрузить ещё</a>
     </section>
     <ul class="pagination">
       <li class="pagination-item">
@@ -197,7 +196,7 @@
         <a class="pagination-link" href="#">10</a>
       </li>
     </ul>
-    <span>Гостиниц на странице:</span>
+    <span class="Number-hotels-page">Гостиниц на странице:</span>
     <select class="number-products-page">
       <option value="four">4</option>
     </select>
