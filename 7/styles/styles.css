@@ -1,0 +1,413 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: 700;
+}
+.navigation-link-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756257;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.intro {
+  background-image: url("../images/index-canyon-header-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center
+}
+
+.causes {
+  text-align: center;
+}
+
+.causes-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.causes-description {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.causes-item-one {
+  background-color: #83B3D3;
+  }
+
+.causes-item-title-one {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.causes-namber-one {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.causes-item-description-one {
+  color: #FFFFFF;
+}
+
+.housing .souvenirs {
+  background-color: rgba(131, 179, 211, 0.12);
+  }
+
+.housing-item-title .souvenirs-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.housing-item-description .souvenirs-item-description {
+  color: #333333;
+}
+
+.food {
+  background-color: #FFFFFF;
+}
+
+.food-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.food-item-description {
+  color: #333333;
+}
+
+.causes-item-two {
+  color: #FFFFFF;
+  background-color:#83B3D3;
+}
+
+.causes-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.causes-namber-two {
+  text-transform: uppercase;
+}
+
+.causes-item-three {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.causes-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.causes-namber {
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.causes-item-description {
+  color: #333333;
+}
+
+.causes-item-four {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.causes-item-five {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.hotel-search {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.question {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  }
+
+  .order-description {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+  }
+
+.button-hotel-search {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: #756257;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.newsletter {
+  background-image: url("../images/index-blurry-photo-canyon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.newsletter-form {
+  color: #000000;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #83B3D3;
+  border-radius: 0px 10px 10px 0px;
+}
+.page-footer {
+  background-color: #FFFFFF;
+}
+
+.page-footer a {
+  color: #83B3D3;
+  text-decoration: none;
+}
+
+.page-footer .footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.form-search {
+  color: #FFFFFF;
+  background-image: url("../images/catalog-blurry-photo-canyon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.inner-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.filter-group-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.filter-group-list {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.button-submit {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #83B3D3;
+  border-radius: 4px;
+}
+
+.button-reset {
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.total-hotels-found {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.button-select {
+  color: #000000;
+  text-decoration: none;
+}
+
+.hotels-card-link-title {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.name-product {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.price-product {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.button-brown {
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-transform: uppercase;
+text-decoration: none;
+color: #FFFFFF;
+background-color: #756257;
+}
+
+.button-blue {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.rating {
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.button-load {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+.pagination a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+.pagination
+.pagination-current {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.number-hotels-page {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.number-products-page {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.newsletter-catalog {
+ color: #000000;
+ text-align: center;
+}
+
+.hotels-card-link {
+  text-decoration: none;
+}
