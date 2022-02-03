@@ -19,7 +19,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -36,7 +36,7 @@ body {
 .navigation-link-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #756257;
@@ -57,14 +57,14 @@ body {
 
 .causes-title {
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .causes-description {
   font-size: 22px;
-  line-height: 36px;
+  line-height: 1.63;
 }
 
 .causes-item-one {
@@ -74,7 +74,7 @@ body {
 .causes-item-title-one {
   font-size: 24px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 1.17;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -94,7 +94,7 @@ body {
 
 .housing-item-title .souvenirs-item-title {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -109,7 +109,7 @@ body {
 
 .food-item-title {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -126,7 +126,7 @@ body {
 .causes-item-title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
@@ -141,7 +141,7 @@ body {
 .causes-item-title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
@@ -170,20 +170,20 @@ body {
 .question {
   font-weight: 700;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   text-transform: uppercase;
   }
 
   .order-description {
     font-size: 22px;
-    line-height: 26px;
+    line-height: 1.18;
     color: #333333;
   }
 
 .button-hotel-search {
   font-weight: 700;
   font-size: 20px;
-  line-height: 36px;
+  line-height: 1.8;
   color: #FFFFFF;
   background: #756257;
   border-radius: 10px;
@@ -202,25 +202,25 @@ body {
 .newsletter-title {
   font-weight: 700;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
 .newsletter-description {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 1.18;
 }
 
 .newsletter-form {
   color: #000000;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.44;
 }
 
 .button {
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 1.3;
   color: #FFFFFF;
   text-transform: uppercase;
   background: #83B3D3;
@@ -237,7 +237,7 @@ body {
 
 .page-footer .footer-contacts-phone {
   font-size: 40px;
-  line-height: 40px;
+  line-height: 1;
   text-transform: uppercase;
   color: #000000;
   text-align: center;
@@ -253,12 +253,12 @@ body {
 .inner-title {
   font-weight: 700;
   font-size: 60px;
-  line-height: 78px;
+  line-height: 1.3;
 }
 
 .breadcrumbs-item {
   font-size: 16px;
-  line-height: 21px;
+  line-height: 1.31;
 }
 
 .breadcrumbs-link {
@@ -269,19 +269,19 @@ body {
 .filter-group-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 1.3;
 }
 
 .filter-group-list {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.28;
 }
 
 .button-submit {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 1.31;
   color: #FFFFFF;
   background: #83B3D3;
   border-radius: 4px;
@@ -289,20 +289,22 @@ body {
 
 .button-reset {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.28;
   color: #FFFFFF;
+  border: none;
+  background-color: transparent;
 }
 
 .total-hotels-found {
   font-weight: 700;
   font-size: 30px;
-  line-height: 39px;
+  line-height: 1.3;
   text-transform: uppercase;
 }
 
 .select-control {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.28;
   color: #333333;
 }
 
@@ -316,25 +318,25 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 24px;
-  line-height: 31px;
+  line-height: 1.29;
 }
 
 .name-product {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.28;
   color: #333333;
 }
 
 .price-product {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.28;
   color: #333333;
 }
 
 .button-brown {
 font-weight: 700;
 font-size: 16px;
-line-height: 21px;
+line-height: 1.31;
 text-transform: uppercase;
 text-decoration: none;
 color: #FFFFFF;
@@ -344,16 +346,27 @@ background-color: #756257;
 .button-blue {
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 1.31;
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
   background-color: #83B3D3;
 }
 
+.button-green {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  text-decoration: none;
+}
+
 .rating {
   font-size: 16px;
-  line-height: 21px;
+  line-height: 1.31;
   text-transform: uppercase;
   text-decoration: none;
   color: #333333;
@@ -363,7 +376,7 @@ background-color: #756257;
 .button-load {
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 1.3;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -374,7 +387,7 @@ background-color: #756257;
 .pagination a {
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 1.3;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #83B3D3;
@@ -385,7 +398,7 @@ background-color: #756257;
 .pagination-current {
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 1.3;
   text-transform: uppercase;
   color: #000000;
   background-color: #F2F2F2;
@@ -393,13 +406,13 @@ background-color: #756257;
 
 .number-hotels-page {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.27;
   color: #333333;
 }
 
 .number-products-page {
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.27;
   color: #333333;
 }
 
